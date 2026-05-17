@@ -9,7 +9,7 @@ const ChessGame = () => {
 
   useEffect(() => {
     // Connect to the Python FastAPI WebSocket
-    ws.current = new WebSocket("ws://localhost:8000/ws");
+    ws.current = new WebSocket("ws://127.0.0.1:8000/ws");
 
     ws.current.onopen = () => {
       setStatus("Connected! White's Turn");
