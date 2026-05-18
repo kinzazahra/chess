@@ -97,13 +97,10 @@ The Windows WebSockets fix: Windows sometimes blocks localhost for WebSockets. O
 JavaScript
 // It should look EXACTLY like this:
 ws.current = new WebSocket("ws://127.0.0.1:8000/ws");
-🔮 Future Roadmap (Optional Features)
-[ ] Add player matchmaking and lobby generation.
+🔮 Future Roadmap
 
-[ ] Add a custom Python-based AI opponent (Stockfish integration).
-
-[ ] Implement a visual move history sidebar (PGN notation).
-
-[ ] Display captured pieces for both Black and White.
-
-[ ] Add a chat box for live multiplayer sessions.
+Add player matchmaking and lobby generation.
+Add a custom Python-based AI opponent (Stockfish integration).
+Implement a visual move history sidebar (PGN notation).
+Display captured pieces for both Black and White.
+Add a chat box for live multiplayer sessions.
