@@ -106,6 +106,3 @@ Display captured pieces for both Black and White.
 Add a chat box for live multiplayer sessions.
 
 Made by Kinza Zahra
-
-
-
